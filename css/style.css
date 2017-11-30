@@ -1,6 +1,6 @@
 ﻿body {
 	margin: 0 auto;
-	padding: 0;
+	padding: 10px;
 	font-family: "Arial", sans-serif;
 	color: #000000;
 	background-color: #DCDCDC;
@@ -85,7 +85,7 @@ img:last-child {
 	border-radius: 5px;	
 }
 .feedback-form .btn:hover {
-	color: white;
+	color: #fff;
 	background:  #696969;
 }
 .location {
@@ -97,7 +97,7 @@ img:last-child {
 	margin-right: 30px;
 }
 .info {
-	max-width: 80%;
+	
 	display: block;
 	margin: 0 auto;
 }
@@ -112,7 +112,7 @@ h3 {
 	text-align: left;
 	padding-right: 50px;
 	padding-left: 50px;
-	border-left: 1px solid black;
+	border-left: 1px solid #000;
 	display: block;
 	margin: 0 auto;
 }
@@ -148,7 +148,7 @@ h3 {
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1180px) {
+@media only screen and (max-width : 1200px) {
 	img {
 	max-width: 250px;
 	height: auto;
@@ -163,6 +163,8 @@ h3 {
 	display: block;
 	margin: 0 auto;
 }
+.location .map {
+	margin-right: 20px;
 }
 hr {
 	width: 90%;
@@ -175,18 +177,12 @@ hr {
 	font-size: 12px;
 	margin: 0;
 		}
-	.container {
-	width: 90%;
-}
+
  .about-us p {
 	 width: 90%;
 	 text-align: left;
 	 font-size: 12px;
 	 line-height: 18px;
- }
- 	.container {
-	width: 100%;
-
 }
 h2 {
 	font-size: 14px;
@@ -206,7 +202,7 @@ h2 {
 	text-align: left;
 	padding-right: 3px;
 	padding-left: 3px;
-	border-left: 1px solid black;
+	border-left: 1px solid #000;
 	display: block;
 	margin: 0 auto;
 	}
@@ -223,7 +219,7 @@ h2 {
 	margin-left: 20px;
 }
 .location .map {
-	margin-right: auto;
+	margin-right: 10px;
 }
 
 
@@ -254,7 +250,7 @@ h2 {
 .feature {
 	float: none;
 	text-align: left;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #000;
 	border-left: none;
 	margin: 0;
 	font-size: 12px;
