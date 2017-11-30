@@ -1,0 +1,302 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", sans-serif;
+	color: #000000;
+	background-color: #DCDCDC;
+	max-width: 1250px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h2 {
+	color: #000000;
+}
+.about-us h2 {
+	text-align: center;
+}
+img {
+	max-width: 300px;
+	height: auto;
+	margin: 20px -2px 0 -2px;
+}
+img:first-child {
+	margin-left: 0;
+}
+img:last-child {
+	margin-right: 0;
+}
+.header-container  {
+	width: auto;
+	display: table;
+	margin: 0 auto;
+	background: #DCDCDC;
+}
+.about-us p {
+	width: 100%;
+	padding: 10px 30px 0 30px;
+	font-size: 18px;
+	line-height: 24px;
+}
+.container {
+	width: 100%;
+}
+
+.start-training {
+	width: 100%;
+	height: 445px;
+	margin-bottom: 0;
+}
+
+.form {
+	width: 40%;
+	padding-left: 40px;
+	float: left;
+}
+
+.feedback input[type="text"]:hover,
+.feedback textarea:hover {
+    border-color: #bebebe;
+}
+.feedback label {
+    display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 5px 0 5px 0;
+}
+.feedback input[type="text"],
+.feedback textarea {
+    box-sizing: border-box;
+    width: 100%;
+	height: 24px;
+    padding: 9px 15px 0 0;
+	border: 1px solid #F5F5F5;
+}
+.feedback textarea {
+	min-height: 100px;
+	overflow-y: scroll;
+}
+.feedback-form .btn {
+	margin: 20px 0 0 0;
+	padding: 5px;
+	border: 1px solid #808080;
+	border-radius: 5px;	
+}
+.feedback-form .btn:hover {
+	color: white;
+	background:  #696969;
+}
+.location {
+	max-width: 450px;
+	float: right;
+	margin-right: 50px;
+}
+.location .map {
+	margin-right: 30px;
+}
+.info {
+	max-width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+h3 {
+	margin-top: 0;
+}
+.info ul {
+    list-style: none;
+}
+.feature {
+	float: left;
+	text-align: left;
+	padding-right: 50px;
+	padding-left: 50px;
+	border-left: 1px solid black;
+	display: block;
+	margin: 0 auto;
+}
+.feature:first-child {
+	padding-left: 0;
+	border-left: none;
+}
+.feature:last-child {
+	padding-right: 0;
+}
+.time {
+	border-left: none;
+	padding-left: none;
+}
+.price-list,
+.cotact-us {
+	border-collapse: collapse;
+}
+.price-list td,
+.cotact-us td {
+	padding: 5px 10px 5px 10px;
+}
+
+.price-list tr,
+.cotact-us tr {
+	font-weight: normal;
+	font-size: 16px;
+	text-align: left;
+}
+.time p {
+	font-size: 16px;
+	padding-top: 5px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1180px) {
+	img {
+	max-width: 250px;
+	height: auto;
+	margin: 20px -2px 0 -2px;
+	}
+	.feature {
+	float: left;
+	text-align: left;
+	padding-right: 8px;
+	padding-left: 8px;
+	border-left: 1px solid black;
+	display: block;
+	margin: 0 auto;
+}
+}
+hr {
+	width: 90%;
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+		.about-us {
+	width: 100%;
+	padding: 15px 15px 0 15px;
+	font-size: 12px;
+	margin: 0;
+		}
+	.container {
+	width: 90%;
+}
+ .about-us p {
+	 width: 90%;
+	 text-align: left;
+	 font-size: 12px;
+	 line-height: 18px;
+ }
+ 	.container {
+	width: 100%;
+
+}
+h2 {
+	font-size: 14px;
+	text-align: center;
+}
+	
+	img {
+	max-width: 150px;
+	height: auto;
+	margin: 0 -2px 0 -2px;
+	}
+	.start-training {
+		height: auto;
+	}
+	.feature {
+	float: left;
+	text-align: left;
+	padding-right: 3px;
+	padding-left: 3px;
+	border-left: 1px solid black;
+	display: block;
+	margin: 0 auto;
+	}
+	
+.form {
+	width: 60%;
+	margin: 20px 0 20px 0;
+	float: none;
+
+}
+.location {
+	width: 60%;
+	float: none;
+	margin-left: 20px;
+}
+.location .map {
+	margin-right: auto;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	img {
+	max-width: 100px;
+	height: auto;
+	margin: 0 -2px 0 -2px;
+	}
+	.container {
+	width: 90%;
+}
+ .about-us p {
+	 width: 90%;
+	 text-align: left;
+	 font-size: 12px;
+	 line-height: 18px;
+	}
+		.info {
+	max-width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.feature {
+	float: none;
+	text-align: left;
+	border-bottom: 1px solid black;
+	border-left: none;
+	margin: 0;
+	font-size: 12px;
+	}
+	.feature h3 { 
+	padding-top: 10px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	img {
+	max-width: 100px;
+	height: auto;
+	margin: 0 -2px 0 -2px;
+	}
+	.container {
+	width: 90%;
+}
+	.about-us p {
+	 width: 90%;
+	 text-align: left;
+	 font-size: 12px;
+	 line-height: 18px;
+	}
+		.info {
+	max-width: 100%;
+display: inline-block;
+	margin: 0 auto;
+}
+
+.feature {
+	float: none;
+	text-align: left;
+	border-bottom: 1px solid black;
+	border-left: none;
+	margin: 0;
+	font-size: 12px;
+	padding: 10px ;
+	}
+
+.feature h3 { 
+	padding-top: 10px;
+	}
+}
