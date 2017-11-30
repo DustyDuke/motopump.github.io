@@ -239,15 +239,6 @@ h2 {
 	height: auto;
 	margin: 0 -2px 0 -2px;
 	}
-	.container {
-	width: 90%;
-}
- .about-us p {
-	 width: 90%;
-	 text-align: left;
-	 font-size: 12px;
-	 line-height: 18px;
-	}
 }
 
 /* Extra Small Devices, Phones */
@@ -257,20 +248,4 @@ h2 {
 	height: auto;
 	margin: 0 -2px 0 -2px;
 	}
-	.container {
-	width: 90%;
-}
-	.about-us p {
-	 width: 90%;
-	 text-align: left;
-	 font-size: 12px;
-	 line-height: 18px;
-	}
-		.info {
-	max-width: 100%;
-display: inline-block;
-	margin: 0 auto;
-}
-
-
 }
