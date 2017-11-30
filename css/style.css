@@ -224,6 +224,14 @@ h2 {
 	.feature h3 { 
 	padding-top: 10px;
 	}
+	.info {
+	max-width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+	}
+	hr {
+	max-width: 40%;	
+	}
 
 }
 
@@ -243,11 +251,6 @@ h2 {
 	 font-size: 12px;
 	 line-height: 18px;
 	}
-		.info {
-	max-width: 100%;
-	display: inline-block;
-	margin: 0 auto;
-}
 }
 
 /* Extra Small Devices, Phones */
