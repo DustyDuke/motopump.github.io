@@ -70,9 +70,9 @@ img:last-child {
 .feedback textarea {
     box-sizing: border-box;
     width: 100%;
-	height: 24px;
-    padding: 9px 15px 00;
-	border: 1px solid #F5F5F5;
+    height: 24px;
+    padding: 9px 15px 0 0;
+    border: 1px solid #F5F5F5;
 }
 .feedback textarea {
 	min-height: 100px;
