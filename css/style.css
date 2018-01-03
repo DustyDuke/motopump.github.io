@@ -71,7 +71,7 @@ img:last-child {
     box-sizing: border-box;
     width: 100%;
 	height: 24px;
-    padding: auto 10px;
+    padding: 9px 15px 00;
 	border: 1px solid #F5F5F5;
 }
 .feedback textarea {
