@@ -1,11 +1,11 @@
 ﻿<?php
 
 /* Задаем переменные */
-$name = htmlspecialchars($_POST["name"]);
-$surname = htmlspecialchars($_POST["surname"]);
-$phone = htmlspecialchars($_POST["phone"]);
-$email = htmlspecialchars($_POST["email"]);
-$message = htmlspecialchars($_POST["message"]);
+$name = htmlspecialchars($_get["name"]);
+$surname = htmlspecialchars($_get["surname"]);
+$phone = htmlspecialchars($_get["phone"]);
+$email = htmlspecialchars($_get["email"]);
+$message = htmlspecialchars($_get["message"]);
 
 
 /* Ваш адрес и тема сообщения */
