@@ -8,7 +8,7 @@ if (isset($_POST['message'])) {$mesage = $_POST['message'];}
  
 $address = 'kotenevaelena@rambler.ru';
 $sub = "Обратная связь";
-$mes = "Имя: $name \nФамилия: $surname \nНомер телефона: $phone \nЕмейл: $email \nСообщение: $message";
+$mes = "Имя: $name \nФамилия: $surname \nНомер телефона: $phone \nПочта: $email \nСообщение: $message";
 $verify = mail ($address,$sub,$mes,"Content-type:text/plain; charset = utf-8 \r\nFrom:$email");
 if ($verify == 'true')
 {
