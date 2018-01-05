@@ -1,39 +1,21 @@
-﻿<?php
-
-/* Задаем переменные */
-$name = htmlspecialchars($_post["name"]);
-$surname = htmlspecialchars($_post["surname"]);
-$phone = htmlspecialchars($_post["phone"]);
-$email = htmlspecialchars($_post["email"]);
-$message = htmlspecialchars($_post["message"]);
-
-
-/* Ваш адрес и тема сообщения */
-$address = "kotenevaelena@rambler.ru";
-$sub = "заявка на тренеровку";
-
-/* Формат письма */
-$mes = "Сообщение с сайта ХХХ.\n
-Имя отправителя: $name 
-Фамилия: $surname
-Телефон отправителя: $phone
-Почта отправителя: $email
-Текст сообщения:
-$message";
-
-
-
-/* Отправляем сообщение, используя mail() функцию */
-$from = "Reply-To: $email \r\n";
-if (mail($address, $sub, $mes, $from)) {
-	header('Refresh: 5; URL=https://dustyduke.github.io/motopump.github.io/');
-	echo '<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-    <body>Письмо отправлено, через 5 секунд вы вернетесь на страницу XXX</body>';}
-else {
-	header('Refresh: 5; URL=https://dustyduke.github.io/motopump.github.io/');
-	echo '<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-    <body>Письмо не отправлено, через 5 секунд вы вернетесь на страницу YYY</body>';}
-
+<?php
+if (isset($_POST['name'])) {$name = $_POST['name'];}
+if (isset($_POST['surname'])) {$surname = $_POST['surname'];}
+if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
+if (isset($_POST['email'])) {$email = $_POST['email'];}
+if (isset($_POST['message'])) {$mesage = $_POST['message'];}
+ 
+ 
+$address = 'kotenevaelena@rambler.ru';
+$sub = "Обратная связь";
+$mes = "Имя: $name \nФамилия: $surname \nНомер телефона: $phone \nЕмейл: $email \nСообщение: $message";
+$verify = mail ($address,$sub,$mes,"Content-type:text/plain; charset = utf-8 \r\nFrom:$email");
+if ($verify == 'true')
+{
+echo "<p>Сообщение отправлено";
+}
+else 
+{
+echo "<p>Сообщение не отправлено";
+}
 ?>
