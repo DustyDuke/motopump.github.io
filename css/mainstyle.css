@@ -214,6 +214,8 @@ textarea:hover {
 input[type="text"]:focus,
 textarea:focus {
 	outline: #90d23d;
+	transform: scale(1.05);
+	transition: 0.4s;
 }
 button {
 	background: #4d4d4d;
