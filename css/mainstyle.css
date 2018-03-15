@@ -255,6 +255,7 @@ button .fa-angle-left:not(:last-child) {
 	align-items: center;
 }
 .links a {
+	cursor: pointer;
 	text-decoration: none;
 	color: #4d4d4d;
 	margin: 10px 0;
@@ -263,13 +264,22 @@ button .fa-angle-left:not(:last-child) {
 	display: none;
 }
 .fa {
-	transition-duration: 0.2s;
+	transition-duration: 0.3s;
 }
-.animation {
+.links a:hover {
+	text-decoration: underline;
+}
+.articles:hover > .fa,
+.article a:hover > .fa {
 	transform: rotate(90deg);
-	transition: 0.2s;
 }
-
+.articles:hover > .transform,
+.article a:hover > .transform {
+	transform: rotate(0deg);
+}
+.transform {
+	transform: rotate(90deg);
+}
 .article {
 	margin: 20px;
 }
