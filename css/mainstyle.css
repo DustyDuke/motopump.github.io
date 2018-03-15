@@ -269,14 +269,6 @@ button .fa-angle-left:not(:last-child) {
 .links a:hover {
 	text-decoration: underline;
 }
-.articles:hover > .fa,
-.article a:hover > .fa {
-	transform: rotate(90deg);
-}
-.articles:hover > .transform,
-.article a:hover > .transform {
-	transform: rotate(0deg);
-}
 .transform {
 	transform: rotate(90deg);
 }
