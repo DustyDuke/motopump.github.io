@@ -305,7 +305,9 @@ if (typeof jQuery === 'undefined') {
       Plugin.call($carousel, $carousel.data())
     })
   })
-
+$("#videocarousel").carousel({
+         interval : false
+});
 }(jQuery);
 
 $(function() {
