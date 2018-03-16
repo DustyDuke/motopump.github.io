@@ -54,10 +54,6 @@ body {
 button:focus {
 	outline: none;
 }
-a:active,
-a:focus {
-	background: transparent;
-}
 header {
 	background-color: #dedede;
 	position: relative;
@@ -460,6 +456,10 @@ footer {
 }
 .footer {
 	flex-direction: column;
+}
+	a:hover,
+	a:focus {
+	background: transparent;
 }
 }
 /* Extra Small Devices, Phones */
