@@ -450,6 +450,9 @@ a:hover,
   .feedback-form {
 	  width: 70%;
   }
+	  .article img {
+	  max-width: 100%;
+  }
   .videoblog iframe {
 	width: 396px;
 	height: 198px;
