@@ -216,7 +216,8 @@ textarea:focus {
 	transform: scale(1.05);
 	transition: 0.4s;
 }
-.feedback-form > button {
+.feedback-form > button,
+.align .btn {
 	background: #4d4d4d;
 	border: 1px solid #4d4d4d;
 	border-radius: 5px;
@@ -226,6 +227,15 @@ textarea:focus {
 	width: 100%;
 	height: 60px;
 	margin: 20px 0;
+	cursor: pointer;
+}
+.subarticle > .align {
+	text-align: center;
+}
+.align .btn {
+	width: 150px;
+	height: 40px;
+	margin: 15px auto;
 }
 button .fa {
 transition-duration: 0.4s;
@@ -259,14 +269,14 @@ button .fa-angle-left:not(:last-child) {
 	color: #4d4d4d;
 	margin: 10px 0;
 }
+.links a:hover {
+	text-decoration: underline;
+}
 .content {
 	display: none;
 }
 .fa {
 	transition-duration: 0.3s;
-}
-.links a:hover {
-	text-decoration: underline;
 }
 .transform {
 	transform: rotate(90deg);
@@ -291,7 +301,6 @@ button .fa-angle-left:not(:last-child) {
 .subarticle {
 	display: none;
 }
-
 .links .fa {
 	margin-left: 30px;
 }
@@ -348,12 +357,42 @@ footer {
 	transform: scale(0.6);
 	transition: 0.3s;
 }
-a:hover,
-	a:focus,
-	a:link,
-	a:active {
-	background-color: transparent;
+.col-md-3 > img:hover {
+	width: 150%;
+	height: auto;
+	position: relative;
+	z-index: 300;
+	top: -55px;
 }
+
+.col-md-3:last-child:hover {
+	right: 120px;
+}
+
+.row >.col-md-3{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	height: 500px;
+}
+.upbutton {
+	display: none;
+	cursor: pointer;
+	z-index: 999;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	color: #fff;
+	background: #4d4d4d;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+.upbutton > .fa {
+	font-size: 22px;
+	padding-top: 6px;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 }
@@ -415,7 +454,7 @@ a:hover,
     display: block;
 }
 .zipmenu {
-	display: block;
+	display: block;	
 }
 	.gradient-left,
 	.gradient-right {
@@ -448,9 +487,6 @@ a:hover,
 	}
   .feedback-form {
 	  width: 70%;
-  }
-	  .article img {
-	  max-width: 100%;
   }
   .videoblog iframe {
 	width: 396px;
@@ -503,6 +539,9 @@ h2 {
 }
 .feedback-form {
 	  width: 90%;
+  }
+  .article img {
+	  max-width: 100%;
   }
 .videoblog,
 .links {
