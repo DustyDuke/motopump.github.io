@@ -301,6 +301,9 @@ button .fa-angle-left:not(:last-child) {
 .subarticle {
 	display: none;
 }
+.subarticle h3 {
+	text-decoration: underline;
+}
 .links .fa {
 	margin-left: 30px;
 }
