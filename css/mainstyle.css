@@ -127,9 +127,8 @@ main h2 {
 .contacts,
 .about {
 	background: #dedede;
-	padding-top: 50px;
+	padding-top: 130px;
 	padding-bottom: 150px;
-	margin-top: 80px;
 }
 .about p {
 	margin-bottom: 70px;
@@ -140,9 +139,8 @@ main h2 {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-	margin: 100px 0;
+	margin: 130px 0;
 	padding-bottom: 80px;
-	margin-top: 80px;
 }	
 .master {
 	text-align: center;
