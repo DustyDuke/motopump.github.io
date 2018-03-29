@@ -328,7 +328,8 @@ $(function() {
 });
 
 $(document).ready(function(){
-    $('.article a').click(function() {   
+    $('.article a').click(function(e) { 
+	     e.preventDefault();
 		$(this).addClass('active');
 		$(this).removeClass('active');
         var tab = $(this).attr('href');
