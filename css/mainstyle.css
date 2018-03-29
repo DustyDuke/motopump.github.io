@@ -127,7 +127,7 @@ main h2 {
 .contacts,
 .about {
 	background: #dedede;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 150px;
 }
 .about p {
@@ -248,7 +248,7 @@ button .fa-angle-left:not(:last-child) {
 	margin-left: 30px;
 }
 .videoblog {
-	padding-top: 80px;
+	padding-top: 50px;
 	margin-bottom: 150px;
 	text-align: center;
 }
@@ -344,6 +344,7 @@ footer {
 	color: #dedede;
 	text-align: center;
 	padding-bottom: 80px;
+	padding-top: 50px;
 }
 .social {
 	height: 64px;
