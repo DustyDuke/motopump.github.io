@@ -44,7 +44,7 @@ body {
 .zipmenu {
 	display: none;
 	position: absolute;
-	right: 10px;
+	left: 10px;
 	top: 10px;
 	background: rgba(0, 0, 0, 0.3);
 	transform: rotate(90deg);
@@ -448,6 +448,9 @@ footer {
 		max-width: 40%;
 		z-index: 30;
 		background: rgba( 0, 0, 0, 0.1);
+	}
+.main-menu ul {
+padding-top: 80px;	
 	}
 	.main-menu a {
 	font-size: 16px;
