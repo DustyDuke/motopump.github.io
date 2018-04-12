@@ -115,6 +115,7 @@ textarea {
 .zipmenu {
 	display: none;
 	position: absolute;
+	height: 40px;
 	left: 10px;
 	top: 10px;
 	background: rgba(0, 0, 0, 0.3);
